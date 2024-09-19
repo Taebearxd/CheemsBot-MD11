@@ -2549,7 +2549,7 @@ if (!XeonTheCreator) return XeonStickOwner()
                 if (!isAdmins && !isGroupOwner && !XeonTheCreator) return XeonStickAdmin()
                 if (!isBotAdmins) return XeonStickBotAdmin()
                 let me = m.sender
-                let teks = `╚»˙·٠${themeemoji}●♥ Tag All ♥●${themeemoji}٠·˙«╝\n😶 *Tagger :*  @${me.split('@')[0]}\n🌿 *Message : ${q ? q : 'no message'}*\n\n`
+                let teks = `╚═════ 𝐓α𝗀αᥣᥣ 𓂃𐀔ֺ ֶָ֪${themeemoji}╝\n *𝐓α𝗀𝗀𝖾𝗋:*  Ꮼ👒̨᷎.@${me.split('@')[0]}\n🌿 *Message: ${q ? q : 'no message'}*\n\n`
                 for (let mem of participants) {
                 teks += `${themeemoji} @${mem.id.split('@')[0]}\n`
                 }
